@@ -7,7 +7,7 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('CGM Service'),
+        title: const Text('CGM Service'),
         centerTitle: true,
       ),
     );
